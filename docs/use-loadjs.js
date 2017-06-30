@@ -9,10 +9,10 @@ loadjs.ready('react', {
   success: function() {
     ReactDOM.render(
       React.createElement('div', null, 'Hello from React'),
-      root,
+      root
     );
   },
   error: function() {
     root.innerHTML = 'Deps not found';
-  },
+  }
 });
